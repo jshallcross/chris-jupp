@@ -34,6 +34,14 @@
     float: none;
   }
 }
+@media (min-width: 567px) {
+  .abs-center-x {
+      position: absolute;
+      top: 5px;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+}
 
 @media screen and (max-width: 540px) {
   .home-article, .aside{
