@@ -1,0 +1,60 @@
+
+.navbar-nav .nav-link,
+.navbar-brand {
+  text-align: center;
+}
+
+.jumbotron {
+  background: url("/bg.jpg") center center;
+  background-size: cover;
+}
+.wholepage{
+  width: 100%;
+  
+  
+}
+
+.home-article{
+  float:left;
+  width: 50%;
+}
+.aside {
+  float: right ;
+  width: 50%;
+  text-align: center;
+}
+
+.youtube {
+  padding-top: 10px;
+ 
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .home-article, .aside{
+    width: 98%;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .home-article, .aside{
+    width: 98%;
+    float: none;
+  }
+  .video, .fb-page{
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 411px) {
+    .home-article, .aside{
+      width: 98%;
+      float: none;
+    }
+    .video, .fb-page{
+      width: 300px;
+    }
+}
