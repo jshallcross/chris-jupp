@@ -1,11 +1,7 @@
 
-.navbar-nav .nav-link,
-.navbar-brand {
-  text-align: center;
-}
 
 .jumbotron {
-  background: url("/bg.jpg") center center;
+  background: url("bg.jpg") center center;
   background-size: cover;
 }
 .wholepage{
